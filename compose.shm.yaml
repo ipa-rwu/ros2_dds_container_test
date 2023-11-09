@@ -1,0 +1,56 @@
+version: "3"
+
+services:
+  talker:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+    ipc: host
+    network_mode: host
+    pid: host
+    environment:
+      - ROS_DOMAIN_ID=42
+      - ROS_SECURITY_ENABLE=false
+      - FASTRTPS_DEFAULT_PROFILES_FILE=/shm_config.xml
+    user: 1000:1000
+    volumes:
+      - ./shm_config.xml:/shm_config.xml
+      - /dev/shm:/dev/shm
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp talker --ros-args --enclave /talker_listener/talker
+
+  listener:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+    ipc: host
+    network_mode: host
+    pid: host
+    environment:
+      - ROS_DOMAIN_ID=42
+      - ROS_SECURITY_ENABLE=false
+      - FASTRTPS_DEFAULT_PROFILES_FILE=/shm_config.xml
+    user: 1000:1000
+    volumes:
+      - ./shm_config.xml:/shm_config.xml
+      - /dev/shm:/dev/shm
+    stdin_open: true
+    tty: true
+    depends_on:
+      - talker
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp listener --ros-args --enclave /talker_listener/listener
