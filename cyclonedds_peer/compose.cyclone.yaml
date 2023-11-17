@@ -1,0 +1,78 @@
+version: "3"
+networks:
+  ros-network:
+    external: false
+    driver: "bridge"
+    ipam:
+      config:
+        - subnet: "172.18.0.0/24"
+          ip_range: "172.18.0.64/26"
+          gateway: "172.18.0.1"
+
+services:
+
+  talker:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.3
+    ports:
+      - "7312:7412/udp"
+      - "7313:7413/udp"
+    environment:
+      - NETINTERFACE=eth0
+      - ROS_DOMAIN_ID=0
+      - ROS_SECURITY_ENABLE=false
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - CYCLONEDDS_URI=/cyclonedds.xml
+    user: 1000:1000
+    volumes:
+      - ./cyclonedds_talker.xml:/cyclonedds.xml
+      - ./talker.log:/home/${USER}/talker.log
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp talker
+
+  listener:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.4
+    ports:
+      - "7314:7414/udp"
+      - "7315:7415/udp"
+    environment:
+      - NETINTERFACE=eth0
+      - ROS_DOMAIN_ID=0
+      - ROS_SECURITY_ENABLE=false
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - CYCLONEDDS_URI=/cyclonedds.xml
+    user: 1000:1000
+    volumes:
+      - ./cyclonedds_listener.xml:/cyclonedds.xml
+      - ./listener.log:/home/${USER}/listener.log
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp listener

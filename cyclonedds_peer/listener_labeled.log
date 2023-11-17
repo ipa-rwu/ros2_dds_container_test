@@ -1,0 +1,562 @@
+1700259895.730005 [0]   listener: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1700259895.730028 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: false {}
+1700259895.730034 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@name]: eth0 {1}
+1700259895.730037 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
+1700259895.730041 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {}
+1700259895.730045 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1700259895.730049 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1700259895.730052 [0]   listener: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {}
+1700259895.730056 [0]   listener: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1700259895.730059 [0]   listener: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1700259895.730063 [0]   listener: config: Domain/General/AllowMulticast/#text: false {1}
+1700259895.730067 [0]   listener: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1700259895.730070 [0]   listener: config: Domain/General/DontRoute/#text: false {}
+1700259895.730074 [0]   listener: config: Domain/General/Transport/#text: udp {1}
+1700259895.730077 [0]   listener: config: Domain/General/EnableMulticastLoopback/#text: true {}
+1700259895.730081 [0]   listener: config: Domain/General/MaxMessageSize/#text: 14720 B {}
+1700259895.730084 [0]   listener: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1700259895.730088 [0]   listener: config: Domain/General/FragmentSize/#text: 1344 B {}
+1700259895.730091 [0]   listener: config: Domain/General/RedundantNetworking/#text: false {}
+1700259895.730095 [0]   listener: config: Domain/General/EntityAutoNaming/#text: empty {}
+1700259895.730099 [0]   listener: config: Domain/General/EntityAutoNaming[@seed]: 2613915728 3839560887 4168907962 3220583087 1261895230 3649807460 2283212754 297014317 {}
+1700259895.730104 [0]   listener: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1700259895.730107 [0]   listener: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1700259895.730111 [0]   listener: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1700259895.730115 [0]   listener: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1700259895.730118 [0]   listener: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1700259895.730122 [0]   listener: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1700259895.730125 [0]   listener: config: Domain/Discovery/Tag/#text:  {}
+1700259895.730129 [0]   listener: config: Domain/Discovery/ExternalDomainId/#text: 0 {}
+1700259895.730132 [0]   listener: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1700259895.730136 [0]   listener: config: Domain/Discovery/Peers/Peer[@Address]: talker {1}
+1700259895.730140 [0]   listener: config: Domain/Discovery/Peers/Peer[@Address]: listener {1}
+1700259895.730144 [0]   listener: config: Domain/Discovery/Peers/Peer[@Address]: 192.168.0.213 {1}
+1700259895.730148 [0]   listener: config: Domain/Discovery/ParticipantIndex/#text: 2 {1}
+1700259895.730151 [0]   listener: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1700259895.730155 [0]   listener: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1700259895.730158 [0]   listener: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1700259895.730162 [0]   listener: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1700259895.730165 [0]   listener: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1700259895.730169 [0]   listener: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1700259895.730173 [0]   listener: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1700259895.730176 [0]   listener: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1700259895.730184 [0]   listener: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1700259895.730188 [0]   listener: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1700259895.730191 [0]   listener: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1700259895.730195 [0]   listener: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1700259895.730199 [0]   listener: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1700259895.730208 [0]   listener: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config,discovery,throttle {1}
+1700259895.730212 [0]   listener: config: Domain/Tracing/OutputFile/#text: listener.log {1}
+1700259895.730216 [0]   listener: config: Domain/Tracing/AppendToFile/#text: false {}
+1700259895.730219 [0]   listener: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1700259895.730223 [0]   listener: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1700259895.730226 [0]   listener: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1700259895.730230 [0]   listener: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1700259895.730233 [0]   listener: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1700259895.730237 [0]   listener: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1700259895.730240 [0]   listener: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1700259895.730244 [0]   listener: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1700259895.730247 [0]   listener: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1700259895.730251 [0]   listener: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1700259895.730254 [0]   listener: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1700259895.730258 [0]   listener: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1700259895.730261 [0]   listener: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1700259895.730265 [0]   listener: config: Domain/Internal/RetransmitMerging/#text: never {}
+1700259895.730268 [0]   listener: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1700259895.730272 [0]   listener: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1700259895.730276 [0]   listener: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1700259895.730279 [0]   listener: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1700259895.730283 [0]   listener: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1700259895.730286 [0]   listener: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1700259895.730290 [0]   listener: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1700259895.730293 [0]   listener: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1700259895.730297 [0]   listener: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
+1700259895.730300 [0]   listener: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1700259895.730304 [0]   listener: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1700259895.730308 [0]   listener: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1700259895.730311 [0]   listener: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1700259895.730315 [0]   listener: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1700259895.730319 [0]   listener: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1700259895.730322 [0]   listener: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1700259895.730325 [0]   listener: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1700259895.730329 [0]   listener: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1700259895.730332 [0]   listener: config: Domain/Internal/SquashParticipants/#text: false {}
+1700259895.730336 [0]   listener: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1700259895.730339 [0]   listener: config: Domain/Internal/LateAckMode/#text: false {}
+1700259895.730345 [0]   listener: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1700259895.730349 [0]   listener: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1700259895.730352 [0]   listener: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1700259895.730356 [0]   listener: config: Domain/Internal/WriteBatch/#text: false {}
+1700259895.730359 [0]   listener: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1700259895.730362 [0]   listener: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1700259895.730366 [0]   listener: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1700259895.730370 [0]   listener: config: Domain/Internal/MonitorPort/#text: -1 {}
+1700259895.730373 [0]   listener: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1700259895.730377 [0]   listener: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1700259895.730380 [0]   listener: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1700259895.730384 [0]   listener: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1700259895.730387 [0]   listener: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1700259895.730391 [0]   listener: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1700259895.730395 [0]   listener: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1700259895.730399 [0]   listener: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1700259895.730402 [0]   listener: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1700259895.730406 [0]   listener: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1700259895.730410 [0]   listener: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1700259895.730414 [0]   listener: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1700259895.730417 [0]   listener: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1700259895.730421 [0]   listener: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
+1700259895.730425 [0]   listener: config: Domain/TCP/NoDelay/#text: true {}
+1700259895.730428 [0]   listener: config: Domain/TCP/Port/#text: -1 {}
+1700259895.730432 [0]   listener: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1700259895.730435 [0]   listener: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1700259895.730439 [0]   listener: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1700259895.730442 [0]   listener: config: Domain/SSL/Enable/#text: false {}
+1700259895.730446 [0]   listener: config: Domain/SSL/CertificateVerification/#text: true {}
+1700259895.730449 [0]   listener: config: Domain/SSL/VerifyClient/#text: true {}
+1700259895.730453 [0]   listener: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1700259895.730456 [0]   listener: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1700259895.730460 [0]   listener: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1700259895.730463 [0]   listener: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1700259895.730467 [0]   listener: config: Domain/SSL/EntropyFile/#text:  {}
+1700259895.730470 [0]   listener: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1700259895.730474 [0]   listener: config: Domain/SharedMemory/Enable/#text: false {}
+1700259895.730477 [0]   listener: config: Domain/SharedMemory/Locator/#text:  {}
+1700259895.730481 [0]   listener: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
+1700259895.730484 [0]   listener: config: Domain/SharedMemory/LogLevel/#text: info {}
+1700259895.730488 [0]   listener: config: Domain[@Id]: 0 {1}
+1700259895.730529 [0]   listener: started at 1700259895.06730496 -- 2023-11-17 22:24:55+00:00
+1700259895.730538 [0]   listener: udp initialized
+1700259895.730686 [0]   listener: interfaces: lo udp/127.0.0.1(q1) eth0 udp/172.18.0.4(q9)
+1700259895.730695 [0]   listener: selected interfaces: eth0 (index 549 priority 0)
+1700259895.730710 [0]   listener: ownip: udp/172.18.0.4
+1700259895.730714 [0]   listener: extmask: invalid/0 (not applicable)
+1700259895.730721 [0]   listener: SPDP MC: udp/239.255.0.1
+1700259895.730724 [0]   listener: default MC: udp/239.255.0.1
+1700259895.730727 [0]   listener: SSM support included
+1700259895.730842 [0]   listener: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1700259895.730860 [0]   listener: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1700259895.730865 [0]   listener: rtps_init: uc ports: disc 7414 data 7415
+1700259895.730868 [0]   listener: rtps_init: domainid 0 participantid 2
+1700259895.730871 [0]   listener: Unicast Ports: discovery 7414 data 7415
+1700259895.730877 [0]   listener: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1700259895.730884 [0]   listener: interface eth0: transmit port 34358
+1700259895.731139 [0]   listener: add_peer_addresses: add udp/172.18.0.3:7410, :7412, :7414, :7416, :7418, :7420, :7422, :7424, :7426
+1700259895.731264 [0]   listener: add_peer_addresses: add udp/172.18.0.4:7410, :7412, :7414, :7416, :7418, :7420, :7422, :7424, :7426
+1700259895.731280 [0]   listener: add_peer_addresses: add udp/192.168.0.213:7410, :7412, :7414, :7416, :7418, :7420, :7422, :7424, :7426
+1700259895.731304 [0]   listener: ddsi_new_local_orphan_writer(DCPSParticipant/org::eclipse::cyclonedds::builtin::DCPSParticipant)
+1700259895.731324 [0]   listener: WRITER 0:0:0:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="org::eclipse::cyclonedds::builtin::DCPSParticipant",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731334 [0]   listener: match_writer_with_readers(wr 0:0:0:100c2) scanning all rds of topic DCPSParticipant
+1700259895.731338 [0]   listener: ddsi_new_local_orphan_writer(DCPSTopic/org::eclipse::cyclonedds::builtin::DCPSTopic)
+1700259895.731354 [0]   listener: WRITER 0:0:0:2c2 QOS={user_data=0<>,topic_name="DCPSTopic",type_name="org::eclipse::cyclonedds::builtin::DCPSTopic",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731359 [0]   listener: match_writer_with_readers(wr 0:0:0:2c2) scanning all rds of topic DCPSTopic
+1700259895.731362 [0]   listener: ddsi_new_local_orphan_writer(DCPSPublication/org::eclipse::cyclonedds::builtin::DCPSPublication)
+1700259895.731373 [0]   listener: WRITER 0:0:0:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="org::eclipse::cyclonedds::builtin::DCPSPublication",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731377 [0]   listener: match_writer_with_readers(wr 0:0:0:3c2) scanning all rds of topic DCPSPublication
+1700259895.731380 [0]   listener: ddsi_new_local_orphan_writer(DCPSSubscription/org::eclipse::cyclonedds::builtin::DCPSSubscription)
+1700259895.731391 [0]   listener: WRITER 0:0:0:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="org::eclipse::cyclonedds::builtin::DCPSSubscription",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731399 [0]   listener: match_writer_with_readers(wr 0:0:0:4c2) scanning all rds of topic DCPSSubscription
+1700259895.731622 [0]   listener: ddsi_new_participant(110af78:b971ef08:4d53c42b:1c1, 0)
+1700259895.731650 [0]   listener: PARTICIPANT 110af78:b971ef08:4d53c42b:1c1 QOS={user_data=10<"enclave=/;">,liveliness=0:10000000000,property_list={1:"__ProcessName":"listener",1:"__Pid":"44",1:"__Hostname":"bda8d840485c"}:{},adlink_entity_factory=0}
+1700259895.731668 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:100c2, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1700259895.731675 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:100c2 @ 0x55efe859cfc4) user 1 builtin 1
+1700259895.731690 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731695 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:100c2) scanning proxy participants tgt=0
+1700259895.731704 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:4c2, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1700259895.731708 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:4c2 @ 0x55efe859d7f4) user 1 builtin 2
+1700259895.731719 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731724 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:4c2) scanning proxy participants tgt=4c7
+1700259895.731730 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:3c2, (null).DCPSPublication/PublicationBuiltinTopicData)
+1700259895.731734 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:3c2 @ 0x55efe859e034) user 1 builtin 3
+1700259895.731744 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731748 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:3c2) scanning proxy participants tgt=3c7
+1700259895.731756 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:200c2, (null).DCPSParticipantMessage/ParticipantMessageData)
+1700259895.731760 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:200c2 @ 0x55efe859e8d4) user 1 builtin 4
+1700259895.731771 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:200c2 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731775 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:200c2) scanning proxy participants tgt=200c7
+1700259895.731781 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:300c3, (null).DCPSTypeLookupRequest/DDS::Builtin::TypeLookup_Request)
+1700259895.731784 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:300c3 @ 0x55efe859f184) user 1 builtin 5
+1700259895.731796 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:300c3 QOS={user_data=0<>,topic_name="DCPSTypeLookupRequest",type_name="DDS::Builtin::TypeLookup_Request",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731800 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:300c3) scanning proxy participants tgt=300c4
+1700259895.731804 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:301c3, (null).DCPSTypeLookupReply/DDS::Builtin::TypeLookup_Reply)
+1700259895.731808 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:301c3 @ 0x55efe859fa24) user 1 builtin 6
+1700259895.731818 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:301c3 QOS={user_data=0<>,topic_name="DCPSTypeLookupReply",type_name="DDS::Builtin::TypeLookup_Reply",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1700259895.731822 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:301c3) scanning proxy participants tgt=301c4
+1700259895.731826 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:100c7, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1700259895.731832 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:100c7 @ 0x55efe859ffd4) user 1 builtin 7
+1700259895.731845 [0]   listener: READER 110af78:b971ef08:4d53c42b:100c7 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731852 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:100c7) scanning proxy participants tgt=0
+1700259895.731856 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:4c7, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1700259895.731860 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:4c7 @ 0x55efe85a0334) user 1 builtin 8
+1700259895.731871 [0]   listener: READER 110af78:b971ef08:4d53c42b:4c7 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731875 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:4c7) scanning proxy participants tgt=4c2
+1700259895.731878 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:3c7, (null).DCPSPublication/PublicationBuiltinTopicData)
+1700259895.731882 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:3c7 @ 0x55efe85a06b4) user 1 builtin 9
+1700259895.731892 [0]   listener: READER 110af78:b971ef08:4d53c42b:3c7 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731896 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:3c7) scanning proxy participants tgt=3c2
+1700259895.731900 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:200c7, (null).DCPSParticipantMessage/ParticipantMessageData)
+1700259895.731903 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:200c7 @ 0x55efe85a0a34) user 1 builtin 10
+1700259895.731913 [0]   listener: READER 110af78:b971ef08:4d53c42b:200c7 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731917 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:200c7) scanning proxy participants tgt=200c2
+1700259895.731921 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:300c4, (null).DCPSTypeLookupRequest/DDS::Builtin::TypeLookup_Request)
+1700259895.731924 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:300c4 @ 0x55efe85a0da4) user 1 builtin 11
+1700259895.731936 [0]   listener: READER 110af78:b971ef08:4d53c42b:300c4 QOS={user_data=0<>,topic_name="DCPSTypeLookupRequest",type_name="DDS::Builtin::TypeLookup_Request",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731943 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:300c4) scanning proxy participants tgt=300c3
+1700259895.731946 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:301c4, (null).DCPSTypeLookupReply/DDS::Builtin::TypeLookup_Reply)
+1700259895.731950 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:301c4 @ 0x55efe85a1124) user 1 builtin 12
+1700259895.731960 [0]   listener: READER 110af78:b971ef08:4d53c42b:301c4 QOS={user_data=0<>,topic_name="DCPSTypeLookupReply",type_name="DDS::Builtin::TypeLookup_Reply",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.731964 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:301c4) scanning proxy participants tgt=301c3
+1700259895.732033 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:107, __BUILT-IN PARTITION__.DCPSParticipant/org::eclipse::cyclonedds::builtin::DCPSParticipant)
+1700259895.732041 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:107 @ 0x55efe85a2fb4) user 2 builtin 12
+1700259895.732055 [0]   listener: READER 110af78:b971ef08:4d53c42b:107 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="org::eclipse::cyclonedds::builtin::DCPSParticipant",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.732062 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:107) scanning all pwrs of topic DCPSParticipant
+1700259895.732065 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:107) scanning all wrs of topic DCPSParticipant
+1700259895.732071 [0]   listener:   reader_add_local_connection(wr 0:0:0:100c2 rd 110af78:b971ef08:4d53c42b:107)
+1700259895.732083 [0]   listener:   writer_add_local_connection(wr 0:0:0:100c2 rd 110af78:b971ef08:4d53c42b:107)
+1700259895.732102 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:207, __BUILT-IN PARTITION__.DCPSSubscription/org::eclipse::cyclonedds::builtin::DCPSSubscription)
+1700259895.732107 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:207 @ 0x55efe85a4374) user 3 builtin 12
+1700259895.732120 [0]   listener: READER 110af78:b971ef08:4d53c42b:207 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="org::eclipse::cyclonedds::builtin::DCPSSubscription",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.732129 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:207) scanning all pwrs of topic DCPSSubscription
+1700259895.732133 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:207) scanning all wrs of topic DCPSSubscription
+1700259895.732137 [0]   listener:   reader_add_local_connection(wr 0:0:0:4c2 rd 110af78:b971ef08:4d53c42b:207)
+1700259895.732147 [0]   listener:   writer_add_local_connection(wr 0:0:0:4c2 rd 110af78:b971ef08:4d53c42b:207)
+1700259895.732159 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:307, __BUILT-IN PARTITION__.DCPSPublication/org::eclipse::cyclonedds::builtin::DCPSPublication)
+1700259895.732165 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:307 @ 0x55efe85a5f94) user 4 builtin 12
+1700259895.732177 [0]   listener: READER 110af78:b971ef08:4d53c42b:307 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="org::eclipse::cyclonedds::builtin::DCPSPublication",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.732183 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:307) scanning all pwrs of topic DCPSPublication
+1700259895.732187 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:307) scanning all wrs of topic DCPSPublication
+1700259895.732191 [0]   listener:   reader_add_local_connection(wr 0:0:0:3c2 rd 110af78:b971ef08:4d53c42b:307)
+1700259895.732197 [0]   listener:   writer_add_local_connection(wr 0:0:0:3c2 rd 110af78:b971ef08:4d53c42b:307)
+1700259895.732450 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:403, (default).ros_discovery_info/rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_)
+1700259895.732461 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:403 @ 0x55efe85abd34) user 5 builtin 12
+1700259895.732477 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:403 QOS={user_data=0<>,topic_name="ros_discovery_info",type_name="rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.732486 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:403) scanning all prds of topic ros_discovery_info
+1700259895.732490 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:403) scanning all rds of topic ros_discovery_info
+1700259895.732575 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:504, (default).ros_discovery_info/rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_)
+1700259895.732584 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:504 @ 0x55efe85af474) user 6 builtin 12
+1700259895.732598 [0]   listener: READER 110af78:b971ef08:4d53c42b:504 QOS={user_data=0<>,topic_name="ros_discovery_info",type_name="rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=1:-1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.732610 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:504) scanning all pwrs of topic ros_discovery_info
+1700259895.732615 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:504) scanning all wrs of topic ros_discovery_info
+1700259895.732762 [0] dq.builtin: SPDP ST0 1103696:8f70f908:e1491cda:1c1 bes fc3f NEW (0x00000000-0x0000002c-0x00000000-0x00000000-0x00000000 ee7160afd559/0.10.3/Linux/Linux) (data udp/172.18.0.3:7413@549 meta udp/172.18.0.3:7412@549) QOS={user_data=10<"enclave=/;">,property_list={1:"__ProcessName":"talker",1:"__Pid":"44",1:"__Hostname":"ee7160afd559"}:{}}
+1700259895.732792 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:100c7) scanning participants tgt=0
+1700259895.732802 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:3c2) scanning participants tgt=3c7
+1700259895.732807 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:3c7 init_acknack_count = 1
+1700259895.732810 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:3c2 rd 110af78:b971ef08:4d53c42b:3c7)
+1700259895.732818 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:3c2 rd 110af78:b971ef08:4d53c42b:3c7) - out-of-sync
+1700259895.732825 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:3c7) scanning participants tgt=3c2
+1700259895.732829 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:3c2 prd 1103696:8f70f908:e1491cda:3c7)
+1700259895.732833 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:3c2 prd 1103696:8f70f908:e1491cda:3c7) - ack seq 1
+1700259895.732839 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549
+1700259895.732843 [0] dq.builtin: reduced nlocs=1
+1700259895.732851 [0] dq.builtin:                                                                   a
+1700259895.732855 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 { +u  }
+1700259895.732858 [0] dq.builtin:   best = 0
+1700259895.732861 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700259895.732866 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:3c2): udp/172.18.0.3:7412@549 (burst size 4294901760 rexmit 283990)
+1700259895.732873 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:4c2) scanning participants tgt=4c7
+1700259895.732877 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:4c7 init_acknack_count = 1
+1700259895.732880 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:4c2 rd 110af78:b971ef08:4d53c42b:4c7)
+1700259895.732883 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:4c2 rd 110af78:b971ef08:4d53c42b:4c7) - out-of-sync
+1700259895.732889 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:4c7) scanning participants tgt=4c2
+1700259895.732892 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:4c2 prd 1103696:8f70f908:e1491cda:4c7)
+1700259895.732895 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:4c2 prd 1103696:8f70f908:e1491cda:4c7) - ack seq 1
+1700259895.732899 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549
+1700259895.732902 [0] dq.builtin: reduced nlocs=1
+1700259895.732906 [0] dq.builtin:                                                                   a
+1700259895.732910 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 { +u  }
+1700259895.732917 [0] dq.builtin:   best = 0
+1700259895.732920 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700259895.732925 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:4c2): udp/172.18.0.3:7412@549 (burst size 4294901760 rexmit 283990)
+1700259895.732930 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:200c2) scanning participants tgt=200c7
+1700259895.732934 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:200c7 init_acknack_count = 1
+1700259895.732937 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:200c2 rd 110af78:b971ef08:4d53c42b:200c7)
+1700259895.732949 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:200c2 rd 110af78:b971ef08:4d53c42b:200c7) - out-of-sync
+1700259895.732954 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:200c7) scanning participants tgt=200c2
+1700259895.732958 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:200c2 prd 1103696:8f70f908:e1491cda:200c7)
+1700259895.732961 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:200c2 prd 1103696:8f70f908:e1491cda:200c7) - ack seq 1
+1700259895.732965 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549
+1700259895.732968 [0] dq.builtin: reduced nlocs=1
+1700259895.732972 [0] dq.builtin:                                                                   a
+1700259895.732976 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 { +u  }
+1700259895.732978 [0] dq.builtin:   best = 0
+1700259895.732981 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700259895.732985 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:200c2): udp/172.18.0.3:7412@549 (burst size 4294901760 rexmit 283990)
+1700259895.732992 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:300c3) scanning participants tgt=300c4
+1700259895.732996 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:300c4 init_acknack_count = 1
+1700259895.733000 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:300c3 rd 110af78:b971ef08:4d53c42b:300c4)
+1700259895.732996 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:603, (default).rt/rosout/rcl_interfaces::msg::dds_::Log_)
+1700259895.733004 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:300c3 rd 110af78:b971ef08:4d53c42b:300c4) - out-of-sync
+1700259895.733018 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:603 @ 0x55efe85b1f24) user 7 builtin 12
+1700259895.733019 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:300c4) scanning participants tgt=300c3
+1700259895.733029 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:300c3 prd 1103696:8f70f908:e1491cda:300c4)
+1700259895.733032 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:300c3 prd 1103696:8f70f908:e1491cda:300c4) - ack seq 0
+1700259895.733033 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:603 QOS={user_data=0<>,topic_name="rt/rosout",type_name="rcl_interfaces::msg::dds_::Log_",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1000:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=10000000000,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733039 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549
+1700259895.733049 [0] dq.builtin: reduced nlocs=1
+1700259895.733051 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:603) scanning all prds of topic rt/rosout
+1700259895.733061 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:603) scanning all rds of topic rt/rosout
+1700259895.733057 [0] dq.builtin:                                                                   a
+1700259895.733076 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 { +u  }
+1700259895.733079 [0] dq.builtin:   best = 0
+1700259895.733082 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700259895.733086 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:300c3): udp/172.18.0.3:7412@549 (burst size 4294901760 rexmit 283990)
+1700259895.733092 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:301c3) scanning participants tgt=301c4
+1700259895.733096 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:301c4 init_acknack_count = 1
+1700259895.733099 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:301c3 rd 110af78:b971ef08:4d53c42b:301c4)
+1700259895.733103 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:301c3 rd 110af78:b971ef08:4d53c42b:301c4) - out-of-sync
+1700259895.733108 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:301c4) scanning participants tgt=301c3
+1700259895.733112 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:301c3 prd 1103696:8f70f908:e1491cda:301c4)
+1700259895.733115 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:301c3 prd 1103696:8f70f908:e1491cda:301c4) - ack seq 0
+1700259895.733119 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549
+1700259895.733122 [0] dq.builtin: reduced nlocs=1
+1700259895.733126 [0] dq.builtin:                                                                   a
+1700259895.733129 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 { +u  }
+1700259895.733132 [0] dq.builtin:   best = 0
+1700259895.733135 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700259895.733139 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:301c3): udp/172.18.0.3:7412@549 (burst size 4294901760 rexmit 283990)
+1700259895.733157 [0] dq.builtin: directed SPDP packet -> not responding
+1700259895.733474 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:703, (default).rr/listener/get_parametersReply/rcl_interfaces::srv::dds_::GetParameters_Response_)
+1700259895.733485 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:703 @ 0x55efe85ba7a4) user 8 builtin 12
+1700259895.733500 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:703 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.1;">,topic_name="rr/listener/get_parametersReply",type_name="rcl_interfaces::srv::dds_::GetParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733512 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:703) scanning all prds of topic rr/listener/get_parametersReply
+1700259895.733516 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:703) scanning all rds of topic rr/listener/get_parametersReply
+1700259895.733534 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:804, (default).rq/listener/get_parametersRequest/rcl_interfaces::srv::dds_::GetParameters_Request_)
+1700259895.733539 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:804 @ 0x55efe85bb9d4) user 9 builtin 12
+1700259895.733552 [0]   listener: READER 110af78:b971ef08:4d53c42b:804 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.1;">,topic_name="rq/listener/get_parametersRequest",type_name="rcl_interfaces::srv::dds_::GetParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.733567 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:804) scanning all pwrs of topic rq/listener/get_parametersRequest
+1700259895.733571 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:804) scanning all wrs of topic rq/listener/get_parametersRequest
+1700259895.733616 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:403 reliable transient-local writer unnamed: (default).ros_discovery_info/rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="ros_discovery_info",type_name="rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733642 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:403) scanning all rds of topic ros_discovery_info
+1700259895.733651 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:504 init_acknack_count = 1
+1700259895.733654 [0] dq.builtin:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:403 rd 110af78:b971ef08:4d53c42b:504)
+1700259895.733659 [0] dq.builtin:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:403 rd 110af78:b971ef08:4d53c42b:504) - out-of-sync
+1700259895.733671 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:903, (default).rr/listener/get_parameter_typesReply/rcl_interfaces::srv::dds_::GetParameterTypes_Response_)
+1700259895.733679 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:603 reliable transient-local writer unnamed: (default).rt/rosout/rcl_interfaces::msg::dds_::Log_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="rt/rosout",type_name="rcl_interfaces::msg::dds_::Log_",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1000:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=10000000000,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733679 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:903 @ 0x55efe85bfd24) user 10 builtin 12
+1700259895.733695 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:603) scanning all rds of topic rt/rosout
+1700259895.733700 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:903 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.2;">,topic_name="rr/listener/get_parameter_typesReply",type_name="rcl_interfaces::srv::dds_::GetParameterTypes_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733711 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:903) scanning all prds of topic rr/listener/get_parameter_typesReply
+1700259895.733721 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:903) scanning all rds of topic rr/listener/get_parameter_typesReply
+1700259895.733713 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:703 reliable volatile writer unnamed: (default).rr/talker/get_parametersReply/rcl_interfaces::srv::dds_::GetParameters_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.1;">,topic_name="rr/talker/get_parametersReply",type_name="rcl_interfaces::srv::dds_::GetParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733739 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:703) scanning all rds of topic rr/talker/get_parametersReply
+1700259895.733742 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:a04, (default).rq/listener/get_parameter_typesRequest/rcl_interfaces::srv::dds_::GetParameterTypes_Request_)
+1700259895.733755 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:a04 @ 0x55efe85c02d4) user 11 builtin 12
+1700259895.733768 [0]   listener: READER 110af78:b971ef08:4d53c42b:a04 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.2;">,topic_name="rq/listener/get_parameter_typesRequest",type_name="rcl_interfaces::srv::dds_::GetParameterTypes_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.733774 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:903 reliable volatile writer unnamed: (default).rr/talker/get_parameter_typesReply/rcl_interfaces::srv::dds_::GetParameterTypes_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.2;">,topic_name="rr/talker/get_parameter_typesReply",type_name="rcl_interfaces::srv::dds_::GetParameterTypes_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733776 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:a04) scanning all pwrs of topic rq/listener/get_parameter_typesRequest
+1700259895.733788 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:903) scanning all rds of topic rr/talker/get_parameter_typesReply
+1700259895.733797 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:a04) scanning all wrs of topic rq/listener/get_parameter_typesRequest
+1700259895.733813 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:b03 reliable volatile writer unnamed: (default).rr/talker/set_parametersReply/rcl_interfaces::srv::dds_::SetParameters_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.3;">,topic_name="rr/talker/set_parametersReply",type_name="rcl_interfaces::srv::dds_::SetParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733839 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:b03) scanning all rds of topic rr/talker/set_parametersReply
+1700259895.733858 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:d03 reliable volatile writer unnamed: (default).rr/talker/set_parameters_atomicallyReply/rcl_interfaces::srv::dds_::SetParametersAtomically_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.4;">,topic_name="rr/talker/set_parameters_atomicallyReply",type_name="rcl_interfaces::srv::dds_::SetParametersAtomically_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733867 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:d03) scanning all rds of topic rr/talker/set_parameters_atomicallyReply
+1700259895.733882 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:f03 reliable volatile writer unnamed: (default).rr/talker/describe_parametersReply/rcl_interfaces::srv::dds_::DescribeParameters_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.5;">,topic_name="rr/talker/describe_parametersReply",type_name="rcl_interfaces::srv::dds_::DescribeParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733893 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:f03) scanning all rds of topic rr/talker/describe_parametersReply
+1700259895.733908 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1103 reliable volatile writer unnamed: (default).rr/talker/list_parametersReply/rcl_interfaces::srv::dds_::ListParameters_Response_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.6;">,topic_name="rr/talker/list_parametersReply",type_name="rcl_interfaces::srv::dds_::ListParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733917 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:1103) scanning all rds of topic rr/talker/list_parametersReply
+1700259895.733924 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:b03, (default).rr/listener/set_parametersReply/rcl_interfaces::srv::dds_::SetParameters_Response_)
+1700259895.733937 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:b03 @ 0x55efe85c7554) user 12 builtin 12
+1700259895.733941 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1303 reliable volatile writer unnamed: (default).rt/parameter_events/rcl_interfaces::msg::dds_::ParameterEvent_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="rt/parameter_events",type_name="rcl_interfaces::msg::dds_::ParameterEvent_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733950 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:b03 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.3;">,topic_name="rr/listener/set_parametersReply",type_name="rcl_interfaces::srv::dds_::SetParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733962 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:1303) scanning all rds of topic rt/parameter_events
+1700259895.733966 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:b03) scanning all prds of topic rr/listener/set_parametersReply
+1700259895.733971 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:b03) scanning all rds of topic rr/listener/set_parametersReply
+1700259895.733980 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1503 reliable volatile writer unnamed: (default).rt/chatter/std_msgs::msg::dds_::String_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="rt/chatter",type_name="std_msgs::msg::dds_::String_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:7,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.733994 [0] dq.builtin: match_proxy_writer_with_readers(pwr 1103696:8f70f908:e1491cda:1503) scanning all rds of topic rt/chatter
+1700259895.734023 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:504 reliable transient-local reader unnamed: (default).ros_discovery_info/rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="ros_discovery_info",type_name="rmw_dds_common::msg::dds_::ParticipantEntitiesInfo_",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=1:-1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734038 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:504) scanning all wrs of topic ros_discovery_info
+1700259895.734045 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:403 prd 1103696:8f70f908:e1491cda:504)
+1700259895.734054 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:c04, (default).rq/listener/set_parametersRequest/rcl_interfaces::srv::dds_::SetParameters_Request_)
+1700259895.734057 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:403 prd 1103696:8f70f908:e1491cda:504) - ack seq 4
+1700259895.734067 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:c04 @ 0x55efe85c8844) user 13 builtin 12
+1700259895.734080 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7413@549
+1700259895.734093 [0] dq.builtin: reduced nlocs=1
+1700259895.734096 [0]   listener: READER 110af78:b971ef08:4d53c42b:c04 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.3;">,topic_name="rq/listener/set_parametersRequest",type_name="rcl_interfaces::srv::dds_::SetParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734102 [0] dq.builtin:                                                                   a
+1700259895.734117 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:c04) scanning all pwrs of topic rq/listener/set_parametersRequest
+1700259895.734123 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:c04) scanning all wrs of topic rq/listener/set_parametersRequest
+1700259895.734117 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7413@549                           1 { +u  }
+1700259895.734132 [0] dq.builtin:   best = 0
+1700259895.734136 [0] dq.builtin:   simple udp/172.18.0.3:7413@549
+1700259895.734143 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:403): udp/172.18.0.3:7413@549 (burst size 4294901760 rexmit 283990)
+1700259895.734280 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:804 reliable volatile reader unnamed: (default).rq/talker/get_parametersRequest/rcl_interfaces::srv::dds_::GetParameters_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.1;">,topic_name="rq/talker/get_parametersRequest",type_name="rcl_interfaces::srv::dds_::GetParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734302 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:804) scanning all wrs of topic rq/talker/get_parametersRequest
+1700259895.734322 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:a04 reliable volatile reader unnamed: (default).rq/talker/get_parameter_typesRequest/rcl_interfaces::srv::dds_::GetParameterTypes_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.2;">,topic_name="rq/talker/get_parameter_typesRequest",type_name="rcl_interfaces::srv::dds_::GetParameterTypes_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734338 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:a04) scanning all wrs of topic rq/talker/get_parameter_typesRequest
+1700259895.734363 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:c04 reliable volatile reader unnamed: (default).rq/talker/set_parametersRequest/rcl_interfaces::srv::dds_::SetParameters_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.3;">,topic_name="rq/talker/set_parametersRequest",type_name="rcl_interfaces::srv::dds_::SetParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734383 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:c04) scanning all wrs of topic rq/talker/set_parametersRequest
+1700259895.734411 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:e04 reliable volatile reader unnamed: (default).rq/talker/set_parameters_atomicallyRequest/rcl_interfaces::srv::dds_::SetParametersAtomically_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.4;">,topic_name="rq/talker/set_parameters_atomicallyRequest",type_name="rcl_interfaces::srv::dds_::SetParametersAtomically_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734426 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:e04) scanning all wrs of topic rq/talker/set_parameters_atomicallyRequest
+1700259895.734436 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:d03, (default).rr/listener/set_parameters_atomicallyReply/rcl_interfaces::srv::dds_::SetParametersAtomically_Response_)
+1700259895.734444 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1004 reliable volatile reader unnamed: (default).rq/talker/describe_parametersRequest/rcl_interfaces::srv::dds_::DescribeParameters_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.5;">,topic_name="rq/talker/describe_parametersRequest",type_name="rcl_interfaces::srv::dds_::DescribeParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734451 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:d03 @ 0x55efe85cfe74) user 14 builtin 12
+1700259895.734454 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:1004) scanning all wrs of topic rq/talker/describe_parametersRequest
+1700259895.734477 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:d03 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.4;">,topic_name="rr/listener/set_parameters_atomicallyReply",type_name="rcl_interfaces::srv::dds_::SetParametersAtomically_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.734481 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1204 reliable volatile reader unnamed: (default).rq/talker/list_parametersRequest/rcl_interfaces::srv::dds_::ListParameters_Request_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=53<"serviceid= 1.10.36.96.8f.70.f9.8.e1.49.1c.da.0.0.0.6;">,topic_name="rq/talker/list_parametersRequest",type_name="rcl_interfaces::srv::dds_::ListParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734494 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:d03) scanning all prds of topic rr/listener/set_parameters_atomicallyReply
+1700259895.734497 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:1204) scanning all wrs of topic rq/talker/list_parametersRequest
+1700259895.734502 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:d03) scanning all rds of topic rr/listener/set_parameters_atomicallyReply
+1700259895.734519 [0] dq.builtin: SEDP ST0 1103696:8f70f908:e1491cda:1404 reliable volatile reader unnamed: (default).rt/parameter_events/rcl_interfaces::msg::dds_::ParameterEvent_ p(open) NEW (as udp/172.18.0.3:7413@549 ssm=0) QOS={user_data=0<>,topic_name="rt/parameter_events",type_name="rcl_interfaces::msg::dds_::ParameterEvent_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734530 [0] dq.builtin: match_proxy_reader_with_writers(prd 1103696:8f70f908:e1491cda:1404) scanning all wrs of topic rt/parameter_events
+1700259895.734538 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:e04, (default).rq/listener/set_parameters_atomicallyRequest/rcl_interfaces::srv::dds_::SetParametersAtomically_Request_)
+1700259895.734552 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:e04 @ 0x55efe85d0ec4) user 15 builtin 12
+1700259895.734576 [0]   listener: READER 110af78:b971ef08:4d53c42b:e04 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.4;">,topic_name="rq/listener/set_parameters_atomicallyRequest",type_name="rcl_interfaces::srv::dds_::SetParametersAtomically_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734596 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:e04) scanning all pwrs of topic rq/listener/set_parameters_atomicallyRequest
+1700259895.734604 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:e04) scanning all wrs of topic rq/listener/set_parameters_atomicallyRequest
+1700259895.734775 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:f03, (default).rr/listener/describe_parametersReply/rcl_interfaces::srv::dds_::DescribeParameters_Response_)
+1700259895.734787 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:f03 @ 0x55efe85d6f84) user 16 builtin 12
+1700259895.734801 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:f03 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.5;">,topic_name="rr/listener/describe_parametersReply",type_name="rcl_interfaces::srv::dds_::DescribeParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.734810 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:f03) scanning all prds of topic rr/listener/describe_parametersReply
+1700259895.734814 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:f03) scanning all rds of topic rr/listener/describe_parametersReply
+1700259895.734834 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:1004, (default).rq/listener/describe_parametersRequest/rcl_interfaces::srv::dds_::DescribeParameters_Request_)
+1700259895.734840 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1004 @ 0x55efe85d8054) user 17 builtin 12
+1700259895.734859 [0]   listener: READER 110af78:b971ef08:4d53c42b:1004 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.5;">,topic_name="rq/listener/describe_parametersRequest",type_name="rcl_interfaces::srv::dds_::DescribeParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.734873 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:1004) scanning all pwrs of topic rq/listener/describe_parametersRequest
+1700259895.734879 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:1004) scanning all wrs of topic rq/listener/describe_parametersRequest
+1700259895.735017 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:1103, (default).rr/listener/list_parametersReply/rcl_interfaces::srv::dds_::ListParameters_Response_)
+1700259895.735027 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1103 @ 0x55efe85dc594) user 18 builtin 12
+1700259895.735040 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:1103 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.6;">,topic_name="rr/listener/list_parametersReply",type_name="rcl_interfaces::srv::dds_::ListParameters_Response_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.735053 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:1103) scanning all prds of topic rr/listener/list_parametersReply
+1700259895.735057 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:1103) scanning all rds of topic rr/listener/list_parametersReply
+1700259895.735076 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:1204, (default).rq/listener/list_parametersRequest/rcl_interfaces::srv::dds_::ListParameters_Request_)
+1700259895.735082 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1204 @ 0x55efe85dd544) user 19 builtin 12
+1700259895.735102 [0]   listener: READER 110af78:b971ef08:4d53c42b:1204 QOS={user_data=53<"serviceid= 1.10.af.78.b9.71.ef.8.4d.53.c4.2b.0.0.0.6;">,topic_name="rq/listener/list_parametersRequest",type_name="rcl_interfaces::srv::dds_::ListParameters_Request_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.735122 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:1204) scanning all pwrs of topic rq/listener/list_parametersRequest
+1700259895.735129 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:1204) scanning all wrs of topic rq/listener/list_parametersRequest
+1700259895.735345 [0]   listener: new_writer(guid 110af78:b971ef08:4d53c42b:1303, (default).rt/parameter_events/rcl_interfaces::msg::dds_::ParameterEvent_)
+1700259895.735355 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1303 @ 0x55efe85e8854) user 20 builtin 12
+1700259895.735368 [0]   listener: WRITER 110af78:b971ef08:4d53c42b:1303 QOS={user_data=0<>,topic_name="rt/parameter_events",type_name="rcl_interfaces::msg::dds_::ParameterEvent_",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,lifespan=9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_entity_factory=1,adlink_writer_data_lifecycle=0}
+1700259895.735377 [0]   listener: match_writer_with_proxy_readers(wr 110af78:b971ef08:4d53c42b:1303) scanning all prds of topic rt/parameter_events
+1700259895.735382 [0]   listener:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:1303 prd 1103696:8f70f908:e1491cda:1404)
+1700259895.735385 [0]   listener:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:1303 prd 1103696:8f70f908:e1491cda:1404) - ack seq 0
+1700259895.735391 [0]   listener: setcover: all_addrs udp/172.18.0.3:7413@549
+1700259895.735394 [0]   listener: reduced nlocs=1
+1700259895.735399 [0]   listener:                                                                   a
+1700259895.735403 [0]   listener:   loc  0 = udp/172.18.0.3:7413@549                           1 { +u  }
+1700259895.735406 [0]   listener:   best = 0
+1700259895.735414 [0]   listener:   simple udp/172.18.0.3:7413@549
+1700259895.735418 [0]   listener: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:1303): udp/172.18.0.3:7413@549 (burst size 4294901760 rexmit 283990)
+1700259895.735423 [0]   listener: match_writer_with_readers(wr 110af78:b971ef08:4d53c42b:1303) scanning all rds of topic rt/parameter_events
+1700259895.735719 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:1404, (default).rt/parameter_events/rcl_interfaces::msg::dds_::ParameterEvent_)
+1700259895.735729 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1404 @ 0x55efe85d8ff4) user 21 builtin 12
+1700259895.735743 [0]   listener: READER 110af78:b971ef08:4d53c42b:1404 QOS={user_data=0<>,topic_name="rt/parameter_events",type_name="rcl_interfaces::msg::dds_::ParameterEvent_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:1000,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.735752 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:1404) scanning all pwrs of topic rt/parameter_events
+1700259895.735757 [0]   listener:   reader 110af78:b971ef08:4d53c42b:1404 init_acknack_count = 1
+1700259895.735760 [0]   listener:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:1303 rd 110af78:b971ef08:4d53c42b:1404)
+1700259895.735765 [0]   listener:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:1303 rd 110af78:b971ef08:4d53c42b:1404) - out-of-sync
+1700259895.735768 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:1404) scanning all wrs of topic rt/parameter_events
+1700259895.735772 [0]   listener:   reader_add_local_connection(wr 110af78:b971ef08:4d53c42b:1303 rd 110af78:b971ef08:4d53c42b:1404)
+1700259895.735776 [0]   listener:   writer_add_local_connection(wr 110af78:b971ef08:4d53c42b:1303 rd 110af78:b971ef08:4d53c42b:1404)
+1700259895.736250 [0]   listener: new_reader(guid 110af78:b971ef08:4d53c42b:1504, (default).rt/chatter/std_msgs::msg::dds_::String_)
+1700259895.736262 [0]   listener: ddsi_ref_participant(110af78:b971ef08:4d53c42b:1c1 @ 0x55efe8599f80 <- 110af78:b971ef08:4d53c42b:1504 @ 0x55efe85f4f94) user 22 builtin 12
+1700259895.736289 [0]   listener: READER 110af78:b971ef08:4d53c42b:1504 QOS={user_data=0<>,topic_name="rt/chatter",type_name="std_msgs::msg::dds_::String_",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:9223372036854775807,destination_order=0,history=0:10,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1700259895.736300 [0]   listener: match_reader_with_proxy_writers(rd 110af78:b971ef08:4d53c42b:1504) scanning all pwrs of topic rt/chatter
+1700259895.736305 [0]   listener:   reader 110af78:b971ef08:4d53c42b:1504 init_acknack_count = 1
+1700259895.736308 [0]   listener:   reader_add_connection(pwr 1103696:8f70f908:e1491cda:1503 rd 110af78:b971ef08:4d53c42b:1504)
+1700259895.736313 [0]   listener:   proxy_writer_add_connection(pwr 1103696:8f70f908:e1491cda:1503 rd 110af78:b971ef08:4d53c42b:1504) - out-of-sync
+1700259895.736316 [0]   listener: match_reader_with_writers(rd 110af78:b971ef08:4d53c42b:1504) scanning all wrs of topic rt/chatter
+
+------------------------- start machine2_talker ------------------------
+
+1700260008.214009 [0] dq.builtin: SPDP ST0 110af39:53bfa8dc:f76ce963:1c1 bes fc3f NEW (0x00000000-0x0000002c-0x00000000-0x00000000-0x00000000 Inspiron/0.10.3/Linux/Linux) (data udp/192.168.0.213:7413@549 meta udp/192.168.0.213:7412@549) QOS={user_data=10<"enclave=/;">,property_list={1:"__ProcessName":"talker",1:"__Pid":"93366",1:"__Hostname":"Inspiron"}:{}}
+1700260008.214162 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:100c7) scanning participants tgt=0
+1700260008.214226 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110af39:53bfa8dc:f76ce963:3c2) scanning participants tgt=3c7
+1700260008.214261 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:3c7 init_acknack_count = 1
+1700260008.214288 [0] dq.builtin:   reader_add_connection(pwr 110af39:53bfa8dc:f76ce963:3c2 rd 110af78:b971ef08:4d53c42b:3c7)
+1700260008.214336 [0] dq.builtin:   proxy_writer_add_connection(pwr 110af39:53bfa8dc:f76ce963:3c2 rd 110af78:b971ef08:4d53c42b:3c7) - out-of-sync
+1700260008.214392 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:3c7) scanning participants tgt=3c2
+1700260008.214428 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:3c2 prd 110af39:53bfa8dc:f76ce963:3c7)
+1700260008.214459 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:3c2 prd 110af39:53bfa8dc:f76ce963:3c7) - ack seq 9
+1700260008.214506 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549
+1700260008.214533 [0] dq.builtin: reduced nlocs=2
+1700260008.214571 [0] dq.builtin:                                                                   a   b
+1700260008.214607 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 {  .. +u  }
+1700260008.214639 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.214661 [0] dq.builtin:   best = 0
+1700260008.214694 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700260008.214721 [0] dq.builtin:                                                                   a   b
+1700260008.214752 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                  2147483647 {  .. *u  }
+1700260008.214783 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.214806 [0] dq.builtin:   best = 1
+1700260008.214832 [0] dq.builtin:   simple udp/192.168.0.213:7412@549
+1700260008.214874 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:3c2): udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549 (burst size 4294901760 rexmit 283990)
+1700260008.214927 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110af39:53bfa8dc:f76ce963:4c2) scanning participants tgt=4c7
+1700260008.214959 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:4c7 init_acknack_count = 1
+1700260008.214984 [0] dq.builtin:   reader_add_connection(pwr 110af39:53bfa8dc:f76ce963:4c2 rd 110af78:b971ef08:4d53c42b:4c7)
+1700260008.215016 [0] dq.builtin:   proxy_writer_add_connection(pwr 110af39:53bfa8dc:f76ce963:4c2 rd 110af78:b971ef08:4d53c42b:4c7) - out-of-sync
+1700260008.215071 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:4c7) scanning participants tgt=4c2
+1700260008.215103 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:4c2 prd 110af39:53bfa8dc:f76ce963:4c7)
+1700260008.215132 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:4c2 prd 110af39:53bfa8dc:f76ce963:4c7) - ack seq 9
+1700260008.215174 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549
+1700260008.215200 [0] dq.builtin: reduced nlocs=2
+1700260008.215235 [0] dq.builtin:                                                                   a   b
+1700260008.215269 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 {  .. +u  }
+1700260008.215298 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.215318 [0] dq.builtin:   best = 0
+1700260008.215342 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700260008.215370 [0] dq.builtin:                                                                   a   b
+1700260008.215421 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                  2147483647 {  .. *u  }
+1700260008.215452 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.215474 [0] dq.builtin:   best = 1
+1700260008.215500 [0] dq.builtin:   simple udp/192.168.0.213:7412@549
+1700260008.215541 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:4c2): udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549 (burst size 4294901760 rexmit 283990)
+1700260008.215588 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110af39:53bfa8dc:f76ce963:200c2) scanning participants tgt=200c7
+1700260008.215619 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:200c7 init_acknack_count = 1
+1700260008.215644 [0] dq.builtin:   reader_add_connection(pwr 110af39:53bfa8dc:f76ce963:200c2 rd 110af78:b971ef08:4d53c42b:200c7)
+1700260008.215675 [0] dq.builtin:   proxy_writer_add_connection(pwr 110af39:53bfa8dc:f76ce963:200c2 rd 110af78:b971ef08:4d53c42b:200c7) - out-of-sync
+1700260008.215717 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:200c7) scanning participants tgt=200c2
+1700260008.215748 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:200c2 prd 110af39:53bfa8dc:f76ce963:200c7)
+1700260008.215775 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:200c2 prd 110af39:53bfa8dc:f76ce963:200c7) - ack seq 15
+1700260008.215817 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549
+1700260008.215842 [0] dq.builtin: reduced nlocs=2
+1700260008.215876 [0] dq.builtin:                                                                   a   b
+1700260008.215909 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 {  .. +u  }
+1700260008.215940 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.215962 [0] dq.builtin:   best = 0
+1700260008.215988 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700260008.216015 [0] dq.builtin:                                                                   a   b
+1700260008.216046 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                  2147483647 {  .. *u  }
+1700260008.216078 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.216099 [0] dq.builtin:   best = 1
+1700260008.216125 [0] dq.builtin:   simple udp/192.168.0.213:7412@549
+1700260008.216165 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:200c2): udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549 (burst size 4294901760 rexmit 283990)
+1700260008.216237 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110af39:53bfa8dc:f76ce963:300c3) scanning participants tgt=300c4
+1700260008.216298 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:300c4 init_acknack_count = 1
+1700260008.216329 [0] dq.builtin:   reader_add_connection(pwr 110af39:53bfa8dc:f76ce963:300c3 rd 110af78:b971ef08:4d53c42b:300c4)
+1700260008.216361 [0] dq.builtin:   proxy_writer_add_connection(pwr 110af39:53bfa8dc:f76ce963:300c3 rd 110af78:b971ef08:4d53c42b:300c4) - out-of-sync
+1700260008.216404 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:300c4) scanning participants tgt=300c3
+1700260008.216435 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:300c3 prd 110af39:53bfa8dc:f76ce963:300c4)
+1700260008.216461 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:300c3 prd 110af39:53bfa8dc:f76ce963:300c4) - ack seq 0
+1700260008.216500 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549
+1700260008.216526 [0] dq.builtin: reduced nlocs=2
+1700260008.216560 [0] dq.builtin:                                                                   a   b
+1700260008.216593 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 {  .. +u  }
+1700260008.216624 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.216647 [0] dq.builtin:   best = 0
+1700260008.216691 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700260008.216718 [0] dq.builtin:                                                                   a   b
+1700260008.216749 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                  2147483647 {  .. *u  }
+1700260008.216779 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.216800 [0] dq.builtin:   best = 1
+1700260008.216824 [0] dq.builtin:   simple udp/192.168.0.213:7412@549
+1700260008.216865 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:300c3): udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549 (burst size 4294901760 rexmit 283990)
+1700260008.216914 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110af39:53bfa8dc:f76ce963:301c3) scanning participants tgt=301c4
+1700260008.216944 [0] dq.builtin:   reader 110af78:b971ef08:4d53c42b:301c4 init_acknack_count = 1
+1700260008.216970 [0] dq.builtin:   reader_add_connection(pwr 110af39:53bfa8dc:f76ce963:301c3 rd 110af78:b971ef08:4d53c42b:301c4)
+1700260008.216999 [0] dq.builtin:   proxy_writer_add_connection(pwr 110af39:53bfa8dc:f76ce963:301c3 rd 110af78:b971ef08:4d53c42b:301c4) - out-of-sync
+1700260008.217051 [0] dq.builtin: match_proxy_reader_with_writers(prd 110af39:53bfa8dc:f76ce963:301c4) scanning participants tgt=301c3
+1700260008.217081 [0] dq.builtin:   proxy_reader_add_connection(wr 110af78:b971ef08:4d53c42b:301c3 prd 110af39:53bfa8dc:f76ce963:301c4)
+1700260008.217105 [0] dq.builtin:   writer_add_connection(wr 110af78:b971ef08:4d53c42b:301c3 prd 110af39:53bfa8dc:f76ce963:301c4) - ack seq 0
+1700260008.217145 [0] dq.builtin: setcover: all_addrs udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549
+1700260008.217168 [0] dq.builtin: reduced nlocs=2
+1700260008.217198 [0] dq.builtin:                                                                   a   b
+1700260008.217228 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                           1 {  .. +u  }
+1700260008.217258 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.217277 [0] dq.builtin:   best = 0
+1700260008.217301 [0] dq.builtin:   simple udp/172.18.0.3:7412@549
+1700260008.217324 [0] dq.builtin:                                                                   a   b
+1700260008.217354 [0] dq.builtin:   loc  0 = udp/172.18.0.3:7412@549                  2147483647 {  .. *u  }
+1700260008.217386 [0] dq.builtin:   loc  1 = udp/192.168.0.213:7412@549                        1 { +u   .. }
+1700260008.217408 [0] dq.builtin:   best = 1
+1700260008.217434 [0] dq.builtin:   simple udp/192.168.0.213:7412@549
+1700260008.217474 [0] dq.builtin: ddsi_rebuild_writer_addrset(110af78:b971ef08:4d53c42b:301c3): udp/172.18.0.3:7412@549 udp/192.168.0.213:7412@549 (burst size 4294901760 rexmit 283990)
+1700260008.217612 [0] dq.builtin: broadcasted SPDP packet -> answering

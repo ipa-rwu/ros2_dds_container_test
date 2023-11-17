@@ -1,0 +1,23 @@
+# syntax=docker/dockerfile:1
+ARG BUILDER_SUFFIX=
+ARG BUILDER_PREFIX=
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE} as base
+
+FROM base as deploy
+ARG DOCKER_USER
+ENV DOCKER_USER $DOCKER_USER
+ARG DOCKER_UID=1000
+ARG DOCKER_GID=1000
+
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+    ros-humble-rmw-cyclonedds-cpp \
+    net-tools lsof && \
+    rm -rf /var/lib/apt/lists/*
+RUN useradd -U -ms /bin/bash $DOCKER_USER \
+    && echo "$DOCKER_USER:$DOCKER_USER" | chpasswd
+WORKDIR /home/$DOCKER_USER
+RUN echo ${DOCKER_USER} ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/${DOCKER_USER} \
+    && chmod 0440 /etc/sudoers.d/${DOCKER_USER} \
+    && adduser ${DOCKER_USER} sudo
