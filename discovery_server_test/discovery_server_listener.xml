@@ -1,0 +1,61 @@
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+    <participant profile_name="UDP server listener" is_default_profile="true">
+        <rtps>
+            <useBuiltinTransports>true</useBuiltinTransports>
+            <!-- Set SERVER's GUID prefix: third number of prefix is server id -->
+            <prefix>44.53.01.5f.45.50.52.4f.53.49.4d.41</prefix>
+            <builtin>
+
+                <discovery_config>
+                    <!-- Set this participant as SERVER -->
+                    <discoveryProtocol>SERVER</discoveryProtocol>
+
+                    <!--
+                            Set remote servers that this server will connect to
+                             configuration:
+                                - Prefix
+                                - PDP listening locator
+                        -->
+                    <discoveryServersList>
+                        <!-- connect to discovery server in container talker-->
+                        <RemoteServer prefix="44.53.00.5f.45.50.52.4f.53.49.4d.41">
+                            <metatrafficUnicastLocatorList>
+                                <locator>
+                                    <udpv4>
+                                        <address>talker</address>
+                                        <port>56543</port>
+                                    </udpv4>
+                                </locator>
+                            </metatrafficUnicastLocatorList>
+                        </RemoteServer>
+                        <!-- remote server on other machine -->
+                        <RemoteServer prefix="44.54.10.5f.45.50.52.4f.53.49.4d.41">
+                            <metatrafficUnicastLocatorList>
+                                <locator>
+                                    <udpv4>
+                                        <address>192.168.0.213</address>
+                                        <port>56543</port>
+                                    </udpv4>
+                                </locator>
+                            </metatrafficUnicastLocatorList>
+                        </RemoteServer>
+                    </discoveryServersList>
+                    <clientAnnouncementPeriod>
+                        <!-- change default to 250 ms -->
+                        <nanosec>250000000</nanosec>
+                    </clientAnnouncementPeriod>
+                </discovery_config>
+
+                <!-- Set up its own discovery server -->
+                <metatrafficUnicastLocatorList>
+                    <locator>
+                        <udpv4>
+                            <address>listener</address>
+                            <port>56543</port>
+                        </udpv4>
+                    </locator>
+                </metatrafficUnicastLocatorList>
+            </builtin>
+        </rtps>
+    </participant>
+</profiles>

@@ -1,0 +1,68 @@
+version: "3"
+networks:
+  aros-network:
+    external: false
+    driver: "bridge"
+    ipam:
+      config:
+        - subnet: "172.18.0.0/24"
+          ip_range: "172.18.0.64/26"
+          gateway: "172.18.0.1"
+
+services:
+  talker:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    user: 1000:1000
+    networks:
+      aros-network:
+        priority: 999
+        ipv4_address: 172.18.0.2
+    environment:
+      - FASTRTPS_DEFAULT_PROFILES_FILE=/fastdds.xml
+      - CONTAINER_NAME=talker
+    volumes:
+      - ./discovery_server_talker.xml:/fastdds.xml
+    stdin_open: true
+    ports:
+      - "56540:56543/udp"
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp talker
+
+  listener:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    user: 1000:1000
+    networks:
+      aros-network:
+        priority: 999
+        ipv4_address: 172.18.0.3
+    environment:
+      - FASTRTPS_DEFAULT_PROFILES_FILE=/fastdds.xml
+    volumes:
+      - ./discovery_server_listener.xml:/fastdds.xml
+    ports:
+      - "56541:56543/udp"
+      - "7414:7414/udp"
+      - "7415:7413/udp"
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp listener

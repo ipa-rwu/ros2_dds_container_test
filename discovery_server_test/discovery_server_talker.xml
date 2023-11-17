@@ -1,0 +1,26 @@
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+    <participant profile_name="UDP server talker" is_default_profile="true">
+        <rtps>
+
+            <useBuiltinTransports>true</useBuiltinTransports>
+            <!-- Set SERVER's GUID prefix: third number of prefix is server id -->
+            <prefix>44.53.00.5f.45.50.52.4f.53.49.4d.41</prefix>
+            <builtin>
+                <discovery_config>
+                    <!-- Set this participant as SERVER -->
+                    <discoveryProtocol>SERVER</discoveryProtocol>
+                </discovery_config>
+
+                <!-- Set up its own discovery server -->
+                <metatrafficUnicastLocatorList>
+                    <locator>
+                        <udpv4>
+                            <address>talker</address>
+                            <port>56543</port>
+                        </udpv4>
+                    </locator>
+                </metatrafficUnicastLocatorList>
+            </builtin>
+        </rtps>
+    </participant>
+</profiles>
