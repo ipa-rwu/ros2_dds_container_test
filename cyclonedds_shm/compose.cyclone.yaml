@@ -1,0 +1,121 @@
+version: "3"
+networks:
+  ros-network:
+    external: false
+    driver: "bridge"
+    ipam:
+      config:
+        - subnet: "172.18.0.0/24"
+          ip_range: "172.18.0.64/26"
+          gateway: "172.18.0.1"
+
+services:
+  RouDi:
+    image: iceoryx:introspection
+    build:
+      context: .
+      dockerfile: Dockerfile_iox_introspection
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/iceoryx:v2.0.3
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.2
+    user: 1000:1000
+    volumes:
+      - ./iox_config.toml:/iox_config.toml
+      - /dev:/dev
+      - /tmp:/tmp
+    stdin_open: true
+    tty: true
+    command:
+      - /usr/bin/iox-roudi -c /iox_config.toml -l debug
+
+  talker:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    pid: "service:RouDi"
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.3
+    environment:
+      - NETINTERFACE=eth0
+      - ROS_DOMAIN_ID=42
+      - ROS_SECURITY_ENABLE=false
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - CYCLONEDDS_URI=/cyclonedds.xml
+    user: 1000:1000
+    volumes:
+      - ./cyclonedds.xml:/cyclonedds.xml
+      - /dev:/dev
+      - /tmp:/tmp
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp talker
+
+  listener:
+    image: communication_test_nodes_humble:user
+    build:
+      context: .
+      dockerfile: Dockerfile_USER
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/communication_test_nodes_humble:latest
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.4
+    pid: "service:RouDi"
+    environment:
+      - NETINTERFACE=eth0
+      - ROS_DOMAIN_ID=42
+      - ROS_SECURITY_ENABLE=false
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - CYCLONEDDS_URI=/cyclonedds.xml
+    user: 1000:1000
+    volumes:
+      - ./cyclonedds.xml:/cyclonedds.xml
+      - /dev:/dev
+      - /tmp:/tmp
+    stdin_open: true
+    tty: true
+    command:
+      - bash
+      - -c
+      - |
+        ros2 run demo_nodes_cpp listener
+
+  iox-introspection:
+    image: iceoryx:introspection
+    build:
+      context: .
+      dockerfile: Dockerfile_iox_introspection
+      args:
+        DOCKER_USER: ${USER}
+        BASE_IMAGE: ghcr.io/ipa-rwu/iceoryx:v2.0.3
+    networks:
+      ros-network:
+        priority: 999
+        ipv4_address: 172.18.0.5
+    user: 1000:1000
+    volumes:
+      - ./iox_config.toml:/iox_config.toml
+      - /dev:/dev
+      - /tmp:/tmp
+    stdin_open: true
+    tty: true
+    pid: "service:RouDi"
+    command:
+      - /bin/bash
+      # iox-introspection-client --all
